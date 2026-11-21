@@ -1,0 +1,46 @@
+# Credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*service_account*
+*token*
+*password*
+*secret*
+
+# Local application configuration
+**/.streamlit/secrets.toml
+**/secrets/
+.env
+.env.*
+
+# Private operational data
+**/automation_state/
+**/Backups/
+**/app_backup.py
+
+# Virtual environments and Python cache
+.venv/
+**/.venv/
+__pycache__/
+*.pyc
+
+# Local and temporary files
+*.log
+*.tmp
+# Private live sales database
+02_Dataset/Live_Sales_Data/*.xlsx
+
+# Local editor settings
+.vscode/
+
+# Notebook pending credential review
+03_Python_Analysis/Exploratory_Analysis.ipynb
+
+# Datasets pending source verification
+*.csv
+
+# Notebooks and PDFs pending privacy review
+*.ipynb
+*.pdf
